@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALPHA FOX – PHOTOBOOTH</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="title">ALPHA FOX – PHOTOBOOTH</div>
+
+  <div class="content">
+    <div class="left">
+      <div class="video-wrapper">
+        <video id="video" autoplay muted playsinline></video>
+        <div id="countdown"></div>
+      </div>
+
+    <div class="controls">
+      <div class="button-row">
+        <button id="startBtn" aria-label="Start Photobooth">START</button>
+        <button id="downloadStrip" aria-label="Download Strip">DOWNLOAD STRIP</button>
+        <button id="downloadVideo" aria-label="Download Video">DOWNLOAD VIDEO</button>
+      </div>
+
+      <div class="settings-row">
+        <label for="mirrorCheck">
+          <input type="checkbox" id="mirrorCheck"> MIRROR
+        </label>
+
+        <label for="delaySelect">COUNTDOWN:
+          <select id="delaySelect">
+            <option value="3">3 sec</option>
+            <option value="5">5 sec</option>
+            <option value="10">10 sec</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="strip-container big-strip-container">
+        <img id="stripPreview" class="strip" src="img/strip1.png" alt="Strip Preview">
+      </div>
+      <div class="strip-container small-strip-container">
+        <img class="small-preview" src="img/strip2.png" alt="Small Strip Preview" data-strip="img/strip2.png">
+      </div>
+      <div class="strip-container extra-strip-container">
+        <img class="small-preview" src="img/strip3.png" alt="Extra Strip Preview" data-strip="img/strip3.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
