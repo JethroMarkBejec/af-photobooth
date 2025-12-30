@@ -6,10 +6,10 @@ const delaySelect = document.getElementById("delaySelect");
 const mirrorCheck = document.getElementById("mirrorCheck");
 
 const frameCoords = [
-  { x: 90, y: 110, w: 1700, h: 1002 },
-  { x: 90, y: 1190, w: 1700, h: 1002 },
-  { x: 90, y: 2270, w: 1700, h: 1002 },
-  { x: 90, y: 3350, w: 1700, h: 1002 }
+  { x: 167, y: 215, w: 1876, h: 1098 },
+  { x: 167, y: 1417, w: 1876, h: 1098 },
+  { x: 167, y: 2608, w: 1876, h: 1098 },
+  { x: 167, y: 3796, w: 1876, h: 1100 }
 ];
 
 let naturalWBig, naturalHBig;
