@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: linear-gradient(135deg, #ff9966, #ff5e62);
+  background: linear-gradient(135deg, #ffffff, #e4ff5e);
   font-family: 'Press Start 2P', cursive;
   display: flex;
   justify-content: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   padding: 30px;
   display: flex;
@@ -26,10 +26,10 @@ body {
 
 .title {
   font-size: 16px;
-  color: #E34A2F;
+  color: #e3dd2f;
   text-align: center;
   letter-spacing: 2px;
-  text-shadow: 1px 1px #000;
+  text-shadow: 1px 1px #f73a01;
 }
 
 .content {
@@ -77,7 +77,7 @@ body {
   padding: 8px 16px;
   background: #000;
   color: #fff;
-  text-shadow: 1px 1px #E34A2F;
+  text-shadow: 1px 1px #e3dd2f;
   animation: pulse 1s ease-in-out infinite;
   z-index: 3;
 }
@@ -118,8 +118,8 @@ body {
   text-transform: uppercase;
   background: #fff;
   padding: 10px;
-  color: #E34A2F;
-  box-shadow: 2px 2px #000;
+  color: #000000;
+  box-shadow: 2px 2px #000000;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -133,7 +133,7 @@ body {
 .settings-row label {
   font-size: 0.6rem;
   font-family: 'Press Start 2P', cursive;
-  color: #E34A2F;
+  color: #000000;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -144,7 +144,7 @@ select {
   font-size: 0.6rem;
   padding: 4px;
   background: #fff;
-  color: #E34A2F;
+  color: #000000;
   border: none;
   box-shadow: 1px 1px #000;
 }
@@ -168,7 +168,7 @@ select {
 .strip-container img.small-preview {
   display: block;
   image-rendering: pixelated;
-  box-shadow: 2px 2px #000;
+  box-shadow: 2px 2px #fff9f9;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
